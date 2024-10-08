@@ -13,9 +13,10 @@
 </head>
 <body>
   <script>
-      
+
+      //declaracion de variables
       let personas = [
-          {nombre: 'Joselin', comida: 'pizza', edad: 30},
+          {nombre: 'Joselin', comida: 'sopa de cuyo', edad: 70},
           {nombre: 'Cagica', comida: 'pozole', edad: 40},
           {nombre: 'Marlon', comida: 'dona', edad: 20},
           {nombre: 'Eber', comida: 'café', edad: 21},
@@ -27,6 +28,7 @@
           {nombre: 'Angel', comida: 'coca cola', edad: 22}
       ];
 
+      //ciclo para mostrar la información en la pagina web
       personas.forEach(persona => {
           document.write(`${persona.nombre} ${persona.comida} edad ${persona.edad}`);
           document.write('<br>');
