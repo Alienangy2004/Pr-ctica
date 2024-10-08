@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+         p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+  <script>
+      
+      let personas = [
+          {nombre: 'Joselin', comida: 'pizza', edad: 30},
+          {nombre: 'Cagica', comida: 'pozole', edad: 40},
+          {nombre: 'Marlon', comida: 'dona', edad: 20},
+          {nombre: 'Eber', comida: 'café', edad: 21},
+          {nombre: 'Edgar', comida: 'chocolate', edad: 28},
+          {nombre: 'Heber', comida: 'cigarro', edad: 50},
+          {nombre: 'Armando', comida: 'plátano', edad: 51},
+          {nombre: 'David', comida: 'manzana', edad: 18},
+          {nombre: 'Patricia', comida: 'tacos de pastor', edad: 52},
+          {nombre: 'Angel', comida: 'coca cola', edad: 22}
+      ];
+
+      personas.forEach(persona => {
+          document.write(`${persona.nombre} ${persona.comida} edad ${persona.edad}`);
+          document.write('<br>');
+      });
+  </script>
+  </body>
+</html>
